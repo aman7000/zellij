@@ -1,0 +1,74 @@
+layout {
+    tab name="loan" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/loan-ms" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/loan-ms" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="loan-get" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/loan-get" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/loan-get" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="loan-reports" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/loan-reports" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/loan-reports" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="excel" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/excel" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/excel" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="loan-app" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/loan-app" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/loan-app" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="loan360-app" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="/Users/amansingh/workspace/loan/loan360-app" 
+            pane size="30%" cwd="/Users/amansingh/workspace/loan/loan360-app" 
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+}

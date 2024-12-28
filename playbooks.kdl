@@ -1,0 +1,14 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="zellij:tab-bar"
+    }
+    pane split_direction="vertical" {
+        pane focus=true  cwd="/Users/amansingh/playbooks" {
+            command "v" 
+        }
+        pane cwd="/Users/amansingh/playbooks"
+    }
+    pane size=2 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+}
